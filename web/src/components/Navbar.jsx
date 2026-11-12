@@ -95,18 +95,14 @@ export default function Navbar() {
             </span>
           </div>
 
-          {/* Hotline Pill */}
           <a
-            href="tel:18001031"
-            className="border border-error/40 bg-error-container/15 text-error hover:bg-error-container/30 hover:border-error/70 transition-all text-xs font-semibold px-2.5 py-1 rounded-none inline-flex items-center gap-1.5"
-            title="Tổng đài An toàn mạng quốc gia 1800.1031"
+            href="https://github.com/Jin01524/checkluadao-do-an/releases/download/v1.2.11/CheckLuaDao-v1.2.11-build17-android.apk"
+            className="inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-none border border-primary bg-primary px-2.5 py-1 text-xs font-semibold text-on-primary transition-colors hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+            aria-label="Tải app Android"
+            title="Tải app Android"
           >
-            <span className="relative flex h-1.5 w-1.5">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-none bg-error opacity-75"></span>
-              <span className="relative inline-flex rounded-none h-1.5 w-1.5 bg-error"></span>
-            </span>
-            <span className="material-symbols-outlined text-[15px]">e911_emergency</span>
-            <span className="hidden sm:inline text-xs">Cứu trợ 1800.1031</span>
+            <span className="material-symbols-outlined text-[15px]" aria-hidden="true">download</span>
+            <span className="hidden sm:inline">Tải app Android</span>
           </a>
 
           {/* User Auth Info / Actions */}
