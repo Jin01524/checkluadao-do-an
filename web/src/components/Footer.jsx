@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="w-full bg-surface-container-lowest py-space-2xl border-t border-white/5 mt-auto">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl mb-space-2xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-xl mb-space-2xl">
           {/* Col 1: Brand & Initiative */}
           <div>
             <div className="flex items-center gap-space-xs mb-space-md">
@@ -18,32 +18,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Col 2: Hotline */}
-          <div>
-            <div className="font-title-md text-title-md text-on-surface mb-space-md uppercase tracking-wider">
-              Đường dây nóng hỗ trợ
-            </div>
-            <div className="space-y-space-xs">
-              <div className="p-space-sm bg-surface-container-low rounded-xl border border-white/5">
-                <div className="font-label-caption text-label-caption text-error font-semibold">
-                  Tổng đài An toàn mạng quốc gia
-                </div>
-                <div className="font-headline-sm text-headline-sm text-on-surface font-label-badge font-bold">
-                  1800.1031
-                </div>
-              </div>
-              <div className="p-space-sm bg-surface-container-low rounded-xl border border-white/5">
-                <div className="font-label-caption text-label-caption text-tertiary font-semibold">
-                  Cứu trợ nạn nhân qua Zalo OA
-                </div>
-                <div className="font-body-md text-body-md text-on-surface font-medium">
-                  Zalo: @CheckLuaDaoOfficial
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Col 3: Cooperation & Academic */}
+          {/* Col 2: Cooperation & Academic */}
           <div>
             <div className="font-title-md text-title-md text-on-surface mb-space-md uppercase tracking-wider">
               Đơn vị phát triển & Hợp tác
@@ -60,7 +35,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 4: Privacy & Security */}
+          {/* Col 3: Privacy & Security */}
           <div>
             <div className="font-title-md text-title-md text-on-surface mb-space-md uppercase tracking-wider">
               Bảo mật & Quyền riêng tư
@@ -77,19 +52,8 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-space-lg border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-space-sm">
-          <div className="font-body-sm text-body-sm text-on-surface-variant text-center md:text-left">
-            © {new Date().getFullYear()} CheckLuaDao Platform. Sáng kiến bảo vệ an toàn cộng đồng số Việt Nam.
-          </div>
-          <div className="flex items-center gap-space-md">
-            <span className="font-label-badge text-label-badge text-on-surface-variant">
-              BẢO MẬT ĐẦU CUỐI KÉP (AES-256)
-            </span>
-            <div className="flex items-center gap-1 text-tertiary font-label-badge text-label-badge">
-              <span className="material-symbols-outlined text-[16px]">terminal</span>
-              <span>CORE ENGINE V3.2</span>
-            </div>
-          </div>
+        <div className="pt-space-lg border-t border-white/5 font-body-sm text-body-sm text-on-surface-variant text-center md:text-left">
+          © {new Date().getFullYear()} CheckLuaDao Platform. Sáng kiến bảo vệ an toàn cộng đồng số Việt Nam.
         </div>
       </div>
     </footer>
