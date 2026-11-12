@@ -1,6 +1,6 @@
 # CheckLuaDao
 
-CheckLuaDao hỗ trợ kiểm tra tin nhắn nghi lừa đảo trên web và Android. Người dùng dán văn bản hoặc chọn ảnh, đọc dấu hiệu rủi ro, phần đối chiếu an toàn và kết luận. Đồ án học phần **Trí tuệ nhân tạo · 23CT1** do **Võ Ngọc Bình** và **Trần Mỹ Nhung** thực hiện, giảng viên hướng dẫn **Đỗ Phúc Hảo**.
+CheckLuaDao hỗ trợ kiểm tra tin nhắn nghi lừa đảo trên web và Android. Người dùng dán văn bản hoặc chọn ảnh, đọc dấu hiệu rủi ro, phần đối chiếu an toàn và kết luận.
 
 ## Dùng thử
 
